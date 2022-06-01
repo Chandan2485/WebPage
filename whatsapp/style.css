@@ -86,3 +86,108 @@ nav>a>i{
     /* height: 230px; */
     width: 30px;
 }
+
+
+.part_2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.business,.security{
+    width: 47%;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.business{
+    background-color:rgb(180, 243, 151) ;
+}
+.security{
+    background-color:rgb(173, 247, 224);
+}
+.business>img{
+    width: 40%;
+    margin-top: 50px;
+}
+.business>h1{
+    margin: 80px 0 20px 0;
+}
+.business>p{
+    margin: 30px 50px 10px 50px;
+    line-height: 25px;
+}
+
+.security>h2{
+    /* border:1px solid black ; */
+    margin: 80px 150px 50px 150px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(88, 221, 88);
+}
+.security>h3{
+    color: rgb(104, 100, 100);
+}
+.security>h1{
+    margin: 10px 0 20px 0;
+}
+.security>p{
+    margin: 30px 50px 10px 50px;
+    line-height: 25px;
+}
+
+
+
+.FEATURES{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.FEATURES>a{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px 35px;
+    border: 1px solid blue;
+    border-radius: 20px;
+}
+
+
+
+
+.info{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(21, 21, 59);
+}
+.whatsapp,.company,.dload,.help{
+    display: flex;
+    flex-direction: column;
+    margin:50px 70px ;
+}
+.info>div>h2{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.info>div>a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    /* font-weight: normal; */
+}
+.info>div>a:hover{
+    text-decoration: underline 1px;
+}
+
+
+
+.last{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.copy>a,.t_c>a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
