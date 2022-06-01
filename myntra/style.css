@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    /* border: 1px solid black; */
+    /* margin-bottom: 20px; */
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 6px 15px 0 rgb(216, 213, 213);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo>img {
+    height: 40px;
+    margin-left: 80px;
+    margin-right: 30px;
+}
+
+nav>a {
+    /* border: 1px solid black; */
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+nav>a>sup {
+    font-size: 10px;
+    color: red;
+}
+
+
+.search{
+   background-color:rgb(214, 210, 210) ;
+}
+
+.search>i {
+    height: 15px;
+    padding: 5px;
+    /* border: 1px solid gray; */
+    
+    
+}
+
+.search>input {
+    height: 30px;
+    width: 300px;
+    padding: 7px 10px;
+    background-color: rgb(214, 210, 210);
+    border: none;
+    color: black;
+}
+
+
+
+
+
+.account {
+    display: flex;
+    /* flex-direction: column; */
+    text-align: center;
+    margin-right: 50px;
+}
+.account>div{
+    margin-left: 20px;
+}
+.account>div>a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+}
+
+
+
+
+.banner_1>img{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.banner_2>img{
+    width: 100%;
+    margin: 20px 0;
+}
+.banner_1{
+    border-top: 1px solid black;
+    padding-top: 40px;
+}
+
+.offer>a{
+  /* border: 1px solid black;    */
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: rgb(66, 66, 68);
+  color: white;
+  padding: 5px 5px;
+  position: fixed;
+  right: 0px;
+  top: 480px;
+}
