@@ -20,11 +20,10 @@ nav ul{
 .containar{
     display: flex;
 }
-.containar>li{
-    /* display: inline-block;
-    margin-left: -5px; */
-}
-    
+/* .containar>li{
+    display: inline-block;
+    margin-left: -5px;
+} */
 
 
 
