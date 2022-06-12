@@ -1,0 +1,33 @@
+.line{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:300px ;
+    grid-gap: 10px;
+    margin: 10px;
+}
+.item{
+    border: 1px solid black;
+}
+.item-list>h2{
+    margin-left: 25px;
+}
+.item>img{
+    width: 100%;
+    height: 70%;
+}
+
+
+.price>p{
+    text-align:center;
+    margin: 5px 0;
+}
+
+
+
+.qt{
+    margin: 10px 0;
+    text-align:center;
+}
+.qt>button{
+    margin-left: 10px;
+}

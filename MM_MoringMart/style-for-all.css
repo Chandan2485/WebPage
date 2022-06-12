@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    align-items: center;
+    color: white;
+}
+
+
+.logo{
+margin-left: 50PX;
+display: flex;
+align-items: baseline;
+}
+.logo>img{
+    height: 40px;
+    border-bottom: 2px solid white;
+}
+.logo>p{
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    align-items: center;
+}
+.search>input{
+    padding-left: 10px;
+    height: 30px;
+    width: 350px;
+    border: none;
+}
+.search>i{
+    font-size: 16px;
+    font-weight: bold;
+    /* border: 1px solid rgb(238, 9, 9); */
+    padding: 7px 14px;
+    margin: 0;
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.account{
+    margin-right: 50PX; 
+}
+nav i{
+    font-size: 30px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.account button{
+    margin: 0 7px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    border-radius: 10px 0 10px 0;
+    font-weight: bold;
+}
+
+
+
+.hero>img{
+    /* margin-top: 20px; */
+    height: 300px;
+    width: 100%;
+}
