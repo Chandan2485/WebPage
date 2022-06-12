@@ -1,6 +1,7 @@
 
 .product{
-    background: rgb(167, 149, 149);
+/* background: rgb(167, 149, 149); */
+background-image:linear-gradient(to bottom right, red, blue);
 padding: 40px;
  display: grid;
  grid-template-columns:1fr 1fr 1fr 1fr ;
@@ -11,6 +12,7 @@ padding: 40px;
     /* border: 1px solid black; */
     background-color: rgb(0, 255, 98);
     border-radius: 20px;
+    box-shadow: 0 10px 10px 0 rgb(172, 167, 167);
 }
 .pact>div{
     /* margin-top: 10px; */

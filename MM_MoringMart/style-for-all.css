@@ -82,3 +82,54 @@ nav i{
     height: 300px;
     width: 100%;
 }
+
+
+
+
+
+
+.bottom{
+    background: #06283D;
+    /* background-image:linear-gradient(to bottom right, red, blue); */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+    border-bottom:3px solid rgb(245, 147, 19) ;
+}
+.bnav{
+    display: flex;
+    flex-direction: column;
+}
+.Mail{
+    width: 300px;
+}
+.bnav p ,.bnav a{
+   text-decoration: none;
+   margin-bottom: 7px;
+    color: aliceblue;
+}
+.bnav h2{
+    color: rgb(245, 147, 19);
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 14px;
+}
+.bnav a:hover{
+    text-decoration:underline 2px ;
+}
+
+.social{
+    padding: 10px 0;
+    color: white;
+    background: #06283D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon i{
+    font-size: 23px;
+    margin: 0 5px;
+}
+.location i{
+    font-size: 35px;
+}
