@@ -23,7 +23,9 @@ align-items: baseline;
     height: 40px;
     border-bottom: 2px solid white;
 }
-.logo>p{
+.logo>a{
+    color: white;
+    text-decoration: none;
     font-size: 30px;
     padding-left: 10px;
 }
